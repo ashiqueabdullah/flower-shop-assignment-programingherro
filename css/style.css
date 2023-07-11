@@ -28,6 +28,8 @@
 	align-items: center;
 }
 
+
+
 /*Hero section Start*/
 .md-7{
 	width: 55%;
@@ -68,6 +70,28 @@
 
 /*Hero section end*/
 
+
+
+/*Hot Deal Section Start*/
+.hot-deal{
+	text-align: center;
+}
+
+.hot-deal h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.hot-deal p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	margin-top: 3%;
+}
+/*Hot Deal Section End*/
+
+
 /*Instagram Section Start*/
 .instagram h2{
 	font-size: 40px;
@@ -90,6 +114,9 @@
 }
 
 /*Instagram Section End*/
+
+
+
 
 /*Call to section start*/
 .bg-image{
@@ -132,7 +159,9 @@
     font-size: 19px;
     margin-top: 3%;
 }
-/*Call to section End*/
+/*Call to Section End*/
+
+
 
 
 /*Footer Section Start*/
