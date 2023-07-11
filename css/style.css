@@ -8,10 +8,18 @@
 .light-bg{
 	background-color:#FCEEF1;
 }
+.dark-bg{
+	background-color: black;
+}
 
 .container{
 	width: 80%;
 	padding: 5% 10% 0% 10%;
+}
+
+.container2{
+	width: 80%;
+	padding: 5% 10% 5% 10%;
 }
 
 .row{
@@ -82,3 +90,34 @@
 }
 
 /*Instagram Section End*/
+
+/*Footer Section Start*/
+.footer{}
+.footer h2{
+	font-size: 40px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 1% 0%;
+	color: white;
+}
+.footer p{
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 1% 0%;
+	color: white;
+}
+.footer p.copyright{
+	color: #303B43;
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 2% 0%;
+}
+.pinkcolor{
+	color: #E55473;
+}
+/*Footer Section End*/
