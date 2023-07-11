@@ -91,6 +91,50 @@
 
 /*Instagram Section End*/
 
+/*Call to section start*/
+.bg-image{
+	background-image: url('../img/Rectangle 9.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 70px 0px;
+}
+
+.bg-image h2{
+	font-size: 40px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.bg-image p{
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.bg-image form{
+	text-align: center;
+}
+.bg-image form input[type="email"]{
+	width: 45%;
+    padding: 16px 5px;
+    border: none;
+    margin-right: 1%;
+    border-radius: 7p;
+}
+.bg-image form input[type="submit"]{
+	background-color: #E55473;
+    color: white;
+    padding: 11px 26px;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-top: 3%;
+}
+/*Call to section End*/
+
+
 /*Footer Section Start*/
 .footer{}
 .footer h2{
