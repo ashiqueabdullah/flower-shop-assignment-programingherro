@@ -20,6 +20,7 @@
 	align-items: center;
 }
 
+/*Hero section Start*/
 .md-7{
 	width: 55%;
 	height: auto;
@@ -57,3 +58,27 @@
 	width: 100%;
 }
 
+/*Hero section end*/
+
+/*Instagram Section Start*/
+.instagram h2{
+	font-size: 40px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+.instagram p{
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 1% 0%;
+}
+.instagram div{
+	padding: 10px;
+}
+.instagram img{
+	width: 100%;
+}
+
+/*Instagram Section End*/
