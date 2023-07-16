@@ -12,6 +12,11 @@
 	background-color: black;
 }
 
+.gray-bg{
+	background-color: #F4F4F4;
+	padding: 50px;
+	margin: 5% 0% 11% 0%
+}
 .container{
 	width: 80%;
 	padding: 5% 10% 0% 10%;
@@ -28,6 +33,17 @@
 	align-items: center;
 }
 
+.row2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.row3{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 
 
 /*Hero section Start*/
@@ -69,6 +85,85 @@
 }
 
 /*Hero section end*/
+
+
+
+/*Featured section Star*/
+.featured{
+	text-align: center;
+}
+
+.featured h2{
+	font-size: 40px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+.featured p{
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 2% 0%;
+}
+
+.featured  p.pink{
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 7%;
+	text-decoration: underline;
+}
+
+.featured .gray-bg p{
+	font-size: 12px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.featured .gray-bg img.img-one{
+	width: 40%;
+}
+.featured .gray-bg img.img-two{
+	width: 44%;
+}
+.featured .gray-bg img.img-three{
+	width: 62%;
+}
+
+
+.featured .one{
+	background-color: #F1DDE7;
+	height: 400px;
+	width: 350px;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	overflow: hidden;
+}
+.featured .two{
+	background-color: #D9EFF0;
+	height: 400px;
+	width: 350px;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	overflow: hidden;
+}
+.featured .three{
+	background-color: #E3EBDB;
+	height: 400px;
+	width: 350px;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	overflow: hidden;
+}
+
+.featured .one img, .featured .two img, .featured .three img{
+	width: 65%;
+    padding-top: 86px;
+}
+/*Featured section End*/
 
 
 
