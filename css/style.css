@@ -27,6 +27,11 @@
 	padding: 5% 10% 5% 10%;
 }
 
+.container3{
+	width: 80%;
+	padding: 0% 10% 0% 10%;
+}
+
 .row{
 	display: flex;
 	justify-content: flex-start;
@@ -45,6 +50,31 @@
 	align-items: center;
 }
 
+
+/*Header Section Start*/
+
+.header{}
+.header .left img{
+	width: 20%; 
+}
+.header .right{}
+.header .right ul{
+	display: flex;
+	float: right;
+}
+.header .right ul li{
+	list-style-type: none;
+}
+.header .right ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 600;
+	color: pink;
+	display: block;
+}
+
+/*Header Section End*/
 
 /*Hero section Start*/
 .md-7{
